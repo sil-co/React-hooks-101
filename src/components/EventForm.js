@@ -19,7 +19,7 @@ const EventForm = () => {
 
     dispatch({
       type: ADD_OPERATION_LOG,
-      description: '一言を追加しました。',
+      description: '作品を追加しました。',
       operatedAt: timeCurrentIso8601()
     })
 
